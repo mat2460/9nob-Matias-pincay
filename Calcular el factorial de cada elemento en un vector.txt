@@ -1,0 +1,26 @@
+Algoritmo Factorial
+
+Función Factorial(n)
+Definir resultado Como Entero;
+resultado = 1;
+Para i = 1 Hasta n Hacer
+resultado = resultado * i;
+FinPara;
+Retornar resultado;
+FinFunción
+
+Algoritmo FactorialVector
+Definir vector, vectorFactorial Como Entero;
+Dimension vector[5], vectorFactorial[5];
+
+Escribir "Ingrese 5 números enteros:";
+Para i = 1 Hasta 5 Hacer
+	Leer vector[i];
+	vectorFactorial[i] = Factorial(vector[i]);
+FinPara;
+
+Escribir "El vector con los factoriales es: ";
+Para i = 1 Hasta 5 Hacer
+	Escribir vectorFactorial[i];
+FinPara;
+FinAlgoritmo
