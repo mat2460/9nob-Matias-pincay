@@ -1,0 +1,25 @@
+Algoritmo ProductoDeVectores
+
+Definir vector1, vector2, producto Como Entero;
+Dimension vector1[4], vector2[4], producto[4];
+
+Escribir "Ingrese los números para el primer vector:";
+Para i = 1 Hasta 4 Hacer
+	Leer vector1[i];
+FinPara;
+
+Escribir "Ingrese los números para el segundo vector:";
+Para i = 1 Hasta 4 Hacer
+	Leer vector2[i];
+FinPara;
+
+Para i = 1 Hasta 4 Hacer
+	producto[i] = vector1[i] * vector2[i];
+FinPara;
+
+Escribir "El producto de los dos vectores es: ";
+Para i = 1 Hasta 4 Hacer
+	Escribir producto[i];
+FinPara;
+FinAlgoritmo
+
